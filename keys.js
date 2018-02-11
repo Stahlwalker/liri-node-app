@@ -30,7 +30,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 client.get(path, params, callback);
 
 //npm spotify
-spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+spotify.search({ type: 'track', query: 'I Want it That Way' }, function(err, data) {
   if (err) {
     return console.log('Error occurred: ' + err);
   }
