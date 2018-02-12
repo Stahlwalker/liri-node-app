@@ -11,29 +11,3 @@ exports.spotify = {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
 };
-
-
-var spotify = new Spotify(keys.spotify);
-var client = new Twitter(keys.twitter);
-
-
-
-
-//npm twitter
-var params = {screen_name: 'nodejs'};
-client.get('statuses/user_timeline', params, function(error, tweets, response) {
-  if (!error) {
-    console.log(tweets);
-  }
-});
-
-client.get(path, params, callback);
-
-//npm spotify
-spotify.search({ type: 'track', query: 'I Want it That Way' }, function(err, data) {
-  if (err) {
-    return console.log('Error occurred: ' + err);
-  }
- 
-console.log(data); 
-});
