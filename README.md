@@ -1,6 +1,6 @@
 # liri-node-app
 
-![This is a screen shot of text file results]()
+![This is a screen shot of text file results](https://github.com/Stahlwalker/liri-node-app/blob/master/logfile.png)
 
 ## What the project does?
     * This project uses npm package managers for Twitter, Spotify and OMDB to pull data upon request.  It also uses the npm request to make http calls.  It supports HTTPS and follows redirectsb by default.  
