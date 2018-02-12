@@ -5,11 +5,8 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
-
-
 var first_argv = process.argv;
 var second_argv = process.argv[2];
-var thrid_argv = process.argv[3];
 
 getInput(second_argv);
 
@@ -146,7 +143,7 @@ function myMovieInfo(movie) {
         console.log("Title: " + JSON.parse(body).Title);
         console.log("Release Year: " + JSON.parse(body).Released);
         console.log("Rating: " + JSON.parse(body).imdbRating);
-        console.log("The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Source.Value);
+        console.log("The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
         // console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).Ratings[1].value);
         console.log("Country where produced: " + JSON.parse(body).Country);
         console.log("Language: " + JSON.parse(body).Language);
@@ -158,7 +155,7 @@ function myMovieInfo(movie) {
         fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFile('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Source.Value);
+        fs.appendFile('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
         // fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
         fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
