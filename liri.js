@@ -14,21 +14,21 @@ getInput(second_argv);
 function getInput(second_argv, args) {
   if (logged()) {
     switch (second_argv) {
-      case 'myTweets':
-        myTweets();
+      case 'my-tweets':
+        displayTweets();
         break;
       case 'spotify-this-song':
       if (args) {
         console.log(' Arguement passed: ' + args);
-        spotifyThisSong(args);
+        displaySong(args);
       }
       else{
         if (process.argv[3] != null) {
           var song = process.argv.slice(3).join('+');
-          spotifyThisSong(song);
+          displaySong(song);
         }
         else {
-          spotifyThisSong('The Sign');
+          displaySong('The Sign');
         }
       }
       break;
@@ -51,7 +51,7 @@ function getInput(second_argv, args) {
 
 //npm twitter
 
-function myTweets(){
+function displayTweets(){
 var client = new Twitter(keys.twitter);
 console.log(client);
 var params = {screen_name: 'PackersStahl'};
@@ -74,7 +74,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 
 //npm spotify
-function spotifyThisSong(song){
+function displaySong(song){
 var spotify = new Spotify(keys.spotify);
 console.log(spotify);
 spotify.search({ type: 'track', query: song}, function(err, data) {
@@ -139,9 +139,6 @@ function runCommand() {
 function logged() {
   // captures all command line inputs
   var inputs = process.argv.slice(2).join(" ");
-  // feeeds the  data to the log file
-  // console.log(inputs);
-  // appends data to the log file after each run
   fs.appendFile("log.txt", "node liri.js: " + inputs + "\n", function (error) {
       if (error) {
           throw error;
