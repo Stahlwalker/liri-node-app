@@ -59,9 +59,11 @@ function displayTweets() {
     if (!error) {
       for (var i = 0; i < tweets.length; i++) {
         var date = tweets[i].created_at;
+        console.log("\n----------\n");
         console.log("@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
         console.log("\n----------\n");
 
+        fs.appendFile("\n----------\n");
         fs.appendFile('log.txt', "@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
         fs.appendFile('log.txt', "\n----------\n");
       }
@@ -84,6 +86,7 @@ function displaySong(song) {
     if (err) {
       for (var i = 0; i < data.tracks.items.length; i++) {
         var songInfo = data.tracks.items[i];
+        console.log("\n----------\n");
         console.log("Artist: " + songInfo.album.artist[0].name);
         console.log("Song: " + songInfo.name);
         console.log("Link: " + songInfo.preview_url);
@@ -91,6 +94,7 @@ function displaySong(song) {
         console.log("\n----------\n");
 
         // fs.appendFile('log.txt', songInfo.artist[0].name);
+        fs.appendFile("\n----------\n");
         fs.appendFile('log.txt', "Artist: " + songInfo.album.artist[0].name);
         fs.appendFile('log.txt', "Song: " + songInfo.name);
         fs.appendFile('log.txt', "Link: " + songInfo.preview_url);
@@ -119,9 +123,11 @@ function myMovieInfo(movie) {
         console.log("If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
         fs.appendFile('log.txt', "If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
       } else {
+        console.log("\n----------\n");
         console.log("Title: " + JSON.parse(body).Title);
         console.log("Release Year: " + JSON.parse(body).Released);
         console.log("Rating: " + JSON.parse(body).imdbRating);
+        console.log("The Rotten Tomato rating is: " + JSON.parse(body).tomatoRating);
         // console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).Ratings[1].value);
         console.log("Country where produced: " + JSON.parse(body).Country);
         console.log("Language: " + JSON.parse(body).Language);
@@ -132,6 +138,7 @@ function myMovieInfo(movie) {
         fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
+        fs.appendFile("The Rotten Tomato rating is: " + JSON.parse(body).tomatoRating);
         // fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
         fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
