@@ -88,10 +88,10 @@ spotify.search({ type: 'track', query: song}, function(err, data) {
       console.log("\n----------\n");
 
       // fs.appendFile('log.txt', songInfo.artist[0].name);
-      fs.appendFile("Artist: " + songInfo.album.artist[0].name);
-      fs.appendFile("Song: " + songInfo.name);
-      fs.appendFile("Link: " + songInfo.preview_url);
-      fs.appendFile("Album: " + songInfo.album.nanme);
+      fs.appendFile('log.txt', "Artist: " + songInfo.album.artist[0].name);
+      fs.appendFile('log.txt', "Song: " + songInfo.name);
+      fs.appendFile('log.txt', "Link: " + songInfo.preview_url);
+      fs.appendFile('log.txt', "Album: " + songInfo.album.nanme);
       fs.appendFile("\n----------\n");
     }
     return console.log('Error occurred: ' + err);
@@ -110,18 +110,30 @@ function movieInfo(movie) {
       var movieInfo = JSON.parse(body);
       if (movieInfo.Response === 'False') {
         movieInfo('Mr. Nobody');
-        console.log("If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix " + JSON.parse(body).imdbRating);
+        console.log("If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
+        fs.appendFile('log.txt', "If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
       }
       else {  
-        console.log("Title: " + JSON.parse(body).imdbTitle);
-        console.log("Release Year: " + JSON.parse(body).imdbReleased);
-        console.log("Rating: " + JSON.parse(body).imdbRated);
-        console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).imdbRatings);
-        console.log("Country where produced: " + JSON.parse(body).imdbCountry);
-        console.log("Language: " + JSON.parse(body).imdbLanguage);
-        console.log("Plot: " + JSON.parse(body).imdbPlot);
-        console.log("Actors: " + JSON.parse(body).imdbActors);
+        console.log("Title: " + JSON.parse(body).Title);
+        console.log("Release Year: " + JSON.parse(body).Released);
+        console.log("Rating: " + JSON.parse(body).imdbRating);
+        console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).tomatoRating);
+        console.log("Country where produced: " + JSON.parse(body).Country);
+        console.log("Language: " + JSON.parse(body).Language);
+        console.log("Plot: " + JSON.parse(body).Plot);
+        console.log("Actors: " + JSON.parse(body).Actors);
         console.log("\n----------\n");
+
+        fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
+        fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
+        fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
+        fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).tomatoRating);
+        fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
+        fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
+        fs.appendFile('log.txt', "Plot: " + JSON.parse(body).Plot);
+        fs.appendFile('log.txt', "Actors: " + JSON.parse(body).Actors);
+        fs.appendFile("\n----------\n");
+        
       }
 
     }
