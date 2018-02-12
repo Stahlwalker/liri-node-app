@@ -105,8 +105,9 @@ spotify.search({ type: 'track', query: song}, function(err, data) {
 //npm omdb
 
 function myMovieInfo(movie) {
+  var omdbURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
   // var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&plot=short&tomatoes=true';
-  var omdbURL = 'http://www.omdbapi.com/?i=tt3896198&apikey=392b0493';
+  // var omdbURL = 'http://www.omdbapi.com/?i=tt3896198&apikey=392b0493';
   var request = require('request');
   request(omdbURL, function(error, response, body) {
     if (!error && response.statusCode === 200) {
@@ -120,7 +121,7 @@ function myMovieInfo(movie) {
         console.log("Title: " + JSON.parse(body).Title);
         console.log("Release Year: " + JSON.parse(body).Released);
         console.log("Rating: " + JSON.parse(body).imdbRating);
-        console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).Ratings[1].value);
+        // console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).Ratings[1].value);
         console.log("Country where produced: " + JSON.parse(body).Country);
         console.log("Language: " + JSON.parse(body).Language);
         console.log("Plot: " + JSON.parse(body).Plot);
@@ -130,7 +131,7 @@ function myMovieInfo(movie) {
         fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
+        // fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
         fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
         fs.appendFile('log.txt', "Plot: " + JSON.parse(body).Plot);
