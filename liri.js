@@ -77,7 +77,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 //npm spotify
 function displaySong(song){
 var spotify = new Spotify(keys.spotify);
-console.log(spotify);
+// console.log(spotify);
 spotify.search({ type: 'track', query: song}, function(err, data) {
   if (err) {
     for(var i = 0; i < data.tracks.items.length; i++){
