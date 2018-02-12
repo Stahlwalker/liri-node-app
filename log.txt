@@ -215,3 +215,9 @@ Title: Justice LeagueRelease Year: 17 Nov 2017Rating: 7.0Country where produced:
 node liri.js: movie-this Suicide-Squad
 Title: Suicide SquadRelease Year: 05 Aug 2016Rating: 6.1Country where produced: USALanguage: English, Japanese, SpanishPlot: A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.Actors: Will Smith, Jaime FitzSimons, Ike Barinholtz, Margot Robbienode liri.js: spotify-this-song
 node liri.js: spotify-this-song Thriller
+node liri.js: spotify-this-song Thriller
+node liri.js: spotify-this-song Thriller
+node liri.js: spotify-this-song Palace
+node liri.js: spotify-this-song Perfect
+node liri.js: spotify-this-song Perfect
+Artist: Ed SheeranSong Name: PerfectPreview URL: https://p.scdn.co/mp3-preview/9779493d90a47f29e4257aa45bc6146d1ee9cb26?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album Name: ÷ (Deluxe)

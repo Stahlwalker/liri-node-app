@@ -85,38 +85,40 @@ function displaySong(song) {
     query: song
   }, function (err, data) {
     if (err) {
-      console.log('Error occurred: ' + err);
+      console.log('Error occurred: ' + "\n");
     }
     else{
-      console.log('')
-      console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+      console.log("\n----------\n");
       console.log('Artist: ' + data.tracks.items[0].album.artists[0].name);
-      console.log('')
       console.log('Song Name: ' + data.tracks.items[0].name);
-      console.log('')
       console.log('Preview URL: ' + data.tracks.items[0].preview_url);
-      console.log('')
       console.log('Album Name: ' + data.tracks.items[0].album.name);
-      console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-      console.log('')
+      console.log("\n----------\n");
+     
+      fs.appendFile("\n----------\n");
+      fs.appendFile('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
+      fs.appendFile('log.txt', 'Song Name: ' + data.tracks.items[0].name);
+      fs.appendFile('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
+      fs.appendFile('log.txt', 'Album Name: ' + data.tracks.items[0].album.name);
+      fs.appendFile("\n----------\n");
 
 
       // for (var i = 0; i < data.tracks.items.length; i++) {
-        // var songInfo = data.tracks.items[i];
-        // console.log("\n----------\n");
-        // console.log("Artist: " + songInfo.album.artist[0].name);
-        // console.log("Song: " + songInfo.name);
-        // console.log("Link: " + songInfo.preview_url);
-        // console.log("Album: " + songInfo.album.nanme);
-        // console.log("\n----------\n");
+      //   var songInfo = data.tracks.items[i];
+      //   console.log("\n----------\n");
+      //   console.log("Artist: " + songInfo.album.artist[0].name);
+      //   console.log("Song: " + songInfo.name);
+      //   console.log("Link: " + songInfo.preview_url);
+      //   console.log("Album: " + songInfo.album.nanme);
+      //   console.log("\n----------\n");
 
-        // // fs.appendFile('log.txt', songInfo.artist[0].name);
-        // fs.appendFile("\n----------\n");
-        // fs.appendFile('log.txt', "Artist: " + songInfo.album.artist[0].name);
-        // fs.appendFile('log.txt', "Song: " + songInfo.name);
-        // fs.appendFile('log.txt', "Link: " + songInfo.preview_url);
-        // fs.appendFile('log.txt', "Album: " + songInfo.album.nanme);
-        // fs.appendFile("\n----------\n");
+      //   // fs.appendFile('log.txt', songInfo.artist[0].name);
+      //   fs.appendFile("\n----------\n");
+      //   fs.appendFile('log.txt', "Artist: " + songInfo.album.artist[0].name);
+      //   fs.appendFile('log.txt', "Song: " + songInfo.name);
+      //   fs.appendFile('log.txt', "Link: " + songInfo.preview_url);
+      //   fs.appendFile('log.txt', "Album: " + songInfo.album.nanme);
+      //   fs.appendFile("\n----------\n");
       }
       // return console.log('Error occurred: ' + err);
     
