@@ -18,5 +18,5 @@
     * 2. node liri.js spotify-this-song 'song name here'
     * 3. node liri.js movie-this 'movie name here'
 
-Who maintains and contributes to the project?
-    This project was created for a coding bootcamp and is maintained by the author Luke Stahl
+## Who maintains and contributes to the project?
+    * This project was created for a coding bootcamp and is maintained by the author Luke Stahl
