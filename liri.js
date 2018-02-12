@@ -158,7 +158,7 @@ function myMovieInfo(movie) {
         fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFile("The Rotten Tomato rating is: " + JSON.parse(body).tomatoRating);
+        fs.appendFile('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).tomatoRating);
         // fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
         fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
