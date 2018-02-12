@@ -44,7 +44,6 @@ function getInput(second_argv, args) {
   }
 }
 
-
 //npm twitter
 
 function displayTweets() {
@@ -71,27 +70,23 @@ function displayTweets() {
   });
 }
 
-
-
 //npm spotify
 function displaySong(song) {
   var spotify = new Spotify(keys.spotify);
-  // console.log(spotify);
   spotify.search({
     type: 'track',
     query: song
   }, function (err, data) {
     if (err) {
       console.log('Error occurred: ' + "\n");
-    }
-    else{
+    } else {
       console.log("\n----------\n");
       console.log('Artist: ' + data.tracks.items[0].album.artists[0].name);
       console.log('Song: ' + data.tracks.items[0].name);
       console.log('Preview URL: ' + data.tracks.items[0].preview_url);
       console.log('Album: ' + data.tracks.items[0].album.name);
       console.log("\n----------\n");
-     
+
       fs.appendFile("\n----------\n");
       fs.appendFile('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
       fs.appendFile('log.txt', 'Song: ' + data.tracks.items[0].name);
@@ -99,37 +94,14 @@ function displaySong(song) {
       fs.appendFile('log.txt', 'Album: ' + data.tracks.items[0].album.name);
       fs.appendFile("\n----------\n");
 
-
-      // for (var i = 0; i < data.tracks.items.length; i++) {
-      //   var songInfo = data.tracks.items[i];
-      //   console.log("\n----------\n");
-      //   console.log("Artist: " + songInfo.album.artist[0].name);
-      //   console.log("Song: " + songInfo.name);
-      //   console.log("Link: " + songInfo.preview_url);
-      //   console.log("Album: " + songInfo.album.nanme);
-      //   console.log("\n----------\n");
-
-      //   // fs.appendFile('log.txt', songInfo.artist[0].name);
-      //   fs.appendFile("\n----------\n");
-      //   fs.appendFile('log.txt', "Artist: " + songInfo.album.artist[0].name);
-      //   fs.appendFile('log.txt', "Song: " + songInfo.name);
-      //   fs.appendFile('log.txt', "Link: " + songInfo.preview_url);
-      //   fs.appendFile('log.txt', "Album: " + songInfo.album.nanme);
-      //   fs.appendFile("\n----------\n");
-      }
-      // return console.log('Error occurred: ' + err);
-    
+    }
 
   });
 }
 
-
 //npm omdb
-
 function myMovieInfo(movie) {
   var omdbURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
-  // var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&plot=short&tomatoes=true';
-  // var omdbURL = 'http://www.omdbapi.com/?i=tt3896198&apikey=392b0493';
   var request = require('request');
   request(omdbURL, function (error, response, body) {
     if (!error && response.statusCode === 200) {
@@ -144,7 +116,6 @@ function myMovieInfo(movie) {
         console.log("Release Year: " + JSON.parse(body).Released);
         console.log("Rating: " + JSON.parse(body).imdbRating);
         console.log("The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
-        // console.log("Rotten Tomatoes bogus rating: " + JSON.parse(body).Ratings[1].value);
         console.log("Country where produced: " + JSON.parse(body).Country);
         console.log("Language: " + JSON.parse(body).Language);
         console.log("Plot: " + JSON.parse(body).Plot);
@@ -156,7 +127,6 @@ function myMovieInfo(movie) {
         fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
         fs.appendFile('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
-        // fs.appendFile('log.txt', "Rotten Tomatoes bogus rating: " + JSON.parse(body).ratings[1].value);
         fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
         fs.appendFile('log.txt', "Plot: " + JSON.parse(body).Plot);
@@ -168,7 +138,6 @@ function myMovieInfo(movie) {
     }
   });
 }
-
 
 function runCommand() {
   fs.readFile('random.txt', 'utf-8', function (error, data) {
