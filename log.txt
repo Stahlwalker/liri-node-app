@@ -6,3 +6,90 @@ node liri.js: movie-this
 node liri.js: movie-this Batman
 node liri.js: do-what-it-says
 node liri.js: do-what-it-says
+node liri.js: displayTweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: displaySongs
+node liri.js: myTweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: spotifyThisSong
+node liri.js: spotifyThisSong Thriller
+node liri.js: spotifyThisSong Thriller
+node liri.js: spotifyThisSong

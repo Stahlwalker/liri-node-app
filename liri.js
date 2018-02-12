@@ -14,21 +14,21 @@ getInput(second_argv);
 function getInput(second_argv, args) {
   if (logged()) {
     switch (second_argv) {
-      case 'displayTweets':
-        displayTweets();
+      case 'myTweets':
+        myTweets();
         break;
       case 'spotify-this-song':
       if (args) {
         console.log(' Arguement passed: ' + args);
-        displaySongs(args);
+        spotifyThisSong(args);
       }
       else{
         if (process.argv[3] != null) {
           var song = process.argv.slice(3).join('+');
-          displaySongs(song);
+          spotifyThisSong(song);
         }
         else {
-          displaySongs('The Sign');
+          spotifyThisSong('The Sign');
         }
       }
       break;
@@ -51,7 +51,7 @@ function getInput(second_argv, args) {
 
 //npm twitter
 
-function displayTweets(){
+function myTweets(){
 var client = new Twitter(keys.twitter);
 console.log(client);
 var params = {screen_name: 'PackersStahl'};
@@ -74,20 +74,23 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 
 //npm spotify
-function displaySongs(song){
+function spotifyThisSong(song){
 var spotify = new Spotify(keys.spotify);
 console.log(spotify);
 spotify.search({ type: 'track', query: song}, function(err, data) {
   if (err) {
     for(var i = 0; i < data.tracks.items.length; i++){
       var songInfo = data.tracks.items[i];
-      console.log("Artist: " + songInfo.artists[0].name);
+      console.log("Artist: " + songInfo.album.artist[0].name);
       console.log("Song: " + songInfo.name);
+      console.log("Link: " + songInfo.preview_url);
       console.log("Album: " + songInfo.album.nanme);
       console.log("\n----------\n");
 
-      fs.appendFile('log.txt', songInfo.artist[0].name);
+      // fs.appendFile('log.txt', songInfo.artist[0].name);
+      fs.appendFile("Artist: " + songInfo.album.artist[0].name);
       fs.appendFile("Song: " + songInfo.name);
+      fs.appendFile("Link: " + songInfo.preview_url);
       fs.appendFile("Album: " + songInfo.album.nanme);
       fs.appendFile("\n----------\n");
     }
