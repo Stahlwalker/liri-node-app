@@ -222,4 +222,5 @@ node liri.js: spotify-this-song Perfect
 node liri.js: spotify-this-song Perfect
 Artist: Ed SheeranSong Name: PerfectPreview URL: https://p.scdn.co/mp3-preview/9779493d90a47f29e4257aa45bc6146d1ee9cb26?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album Name: ÷ (Deluxe)node liri.js: movie-this Jaws
 node liri.js: movie-this Jaws
+Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: undefinedCountry where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Garynode liri.js: movie-this Jaws
 Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: undefinedCountry where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary

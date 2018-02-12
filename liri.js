@@ -90,16 +90,16 @@ function displaySong(song) {
     else{
       console.log("\n----------\n");
       console.log('Artist: ' + data.tracks.items[0].album.artists[0].name);
-      console.log('Song Name: ' + data.tracks.items[0].name);
+      console.log('Song: ' + data.tracks.items[0].name);
       console.log('Preview URL: ' + data.tracks.items[0].preview_url);
-      console.log('Album Name: ' + data.tracks.items[0].album.name);
+      console.log('Album: ' + data.tracks.items[0].album.name);
       console.log("\n----------\n");
      
       fs.appendFile("\n----------\n");
       fs.appendFile('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
-      fs.appendFile('log.txt', 'Song Name: ' + data.tracks.items[0].name);
+      fs.appendFile('log.txt', 'Song: ' + data.tracks.items[0].name);
       fs.appendFile('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
-      fs.appendFile('log.txt', 'Album Name: ' + data.tracks.items[0].album.name);
+      fs.appendFile('log.txt', 'Album: ' + data.tracks.items[0].album.name);
       fs.appendFile("\n----------\n");
 
 
