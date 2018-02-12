@@ -2,17 +2,58 @@ require("dotenv").config();
 
 var fs = require("fs");
 var keys=require("./keys.js");
-var twitter = require("twitter");
-var spotify = require("spotify");
-var client = new Twitter(keys.twitter);
-var spotify = new Spotify(keys.spotify);
+var Twitter = require('twitter');
+var Spotify = require('node-spotify-api');
+
+
 var first_argv = process.argv;
 var second_argv = process.argv[2];
+
+getInput(second_argv);
+
+function getInput(second_argv, args) {
+  if (logged()) {
+    switch (second_argv) {
+      case 'displayTweets':
+        displayTweets();
+        break;
+      case 'spotify-this-song':
+      if (args) {
+        console.log(' Arguement passed: ' + args);
+        displaySongs(args);
+      }
+      else{
+        if (process.argv[3] != null) {
+          var song = process.argv.slice(3).join('+');
+          displaySongs(song);
+        }
+        else {
+          displaySongs('The Sign');
+        }
+      }
+      break;
+    case 'movie-this':
+      if (args) {
+        movieInfo(args);
+      }
+      else {
+        var movie = process.argv.slice(3).join('+');
+        movieInfo(movie);
+      }
+      break;
+    case 'do-what-it-says':
+      runCommand();
+      break;
+    }
+  }
+}
+
 
 //npm twitter
 
 function displayTweets(){
-
+var client = new Twitter(keys.twitter);
+console.log(client);
 var params = {screen_name: 'PackersStahl'};
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
@@ -34,6 +75,8 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 //npm spotify
 function displaySongs(song){
+var spotify = new Spotify(keys.spotify);
+console.log(spotify);
 spotify.search({ type: 'track', query: song}, function(err, data) {
   if (err) {
     for(var i = 0; i < data.tracks.items.length; i++){
@@ -58,11 +101,11 @@ spotify.search({ type: 'track', query: song}, function(err, data) {
 //npm omdb
 
 function movieInfo(movie) {
-  var request = require("request");
+  var request = require('request');
   request("http://www.omdbapi.com/?i=tt3896198&apikey=392b0493", function(error, response, body) {
     if (!error && response.statusCode === 200) {
       var movieInfo = JSON.parse(body);
-      if (movieDetails.Response === 'False') {
+      if (movieInfo.Response === 'False') {
         movieInfo('Mr. Nobody');
         console.log("If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix " + JSON.parse(body).imdbRating);
       }
@@ -80,4 +123,29 @@ function movieInfo(movie) {
 
     }
   });
+}
+
+
+function runCommand() {
+  fs.readFile('random.txt', 'utf-8', function (error, data) {
+      var fileCommands = data.split(',');
+      getInput(fileCommands[0], fileCommands[1]);
+  });
+}
+
+function logged() {
+  // captures all command line inputs
+  var inputs = process.argv.slice(2).join(" ");
+  // feeeds the  data to the log file
+  // console.log(inputs);
+  // appends data to the log file after each run
+  fs.appendFile("log.txt", "node liri.js: " + inputs + "\n", function (error) {
+      if (error) {
+          throw error;
+      }
+      else {
+          console.log(" updated log file! ");
+      }
+  });
+  return true;
 }
