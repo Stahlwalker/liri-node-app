@@ -225,4 +225,48 @@ node liri.js: movie-this Jaws
 Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: undefinedCountry where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Garynode liri.js: movie-this Jaws
 Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: undefinedCountry where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Garynode liri.js: movie-this The-Matrix
 node liri.js: movie-this Jaws
-Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: 97%Country where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+Title: JawsRelease Year: 20 Jun 1975Rating: 8.0The Rotten Tomato rating is: 97%Country where produced: USALanguage: EnglishPlot: A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Garynode liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: spotify-this-song perfect
+Artist: Ed SheeranSong: PerfectPreview URL: https://p.scdn.co/mp3-preview/9779493d90a47f29e4257aa45bc6146d1ee9cb26?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: ÷ (Deluxe)node liri.js: movie-this inception
+Title: InceptionRelease Year: 16 Jul 2010Rating: 8.8The Rotten Tomato rating is: 86%Country where produced: USA, UKLanguage: English, Japanese, FrenchPlot: A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardynode liri.js: do-what-it-says
+node liri.js: do-what-it-says
