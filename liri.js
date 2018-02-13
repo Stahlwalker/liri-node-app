@@ -86,7 +86,7 @@ function displaySong(song) {
       console.log('Album: ' + data.tracks.items[0].album.name);
       console.log("\n----------\n");
 
-      fs.appendFileSync("\n----------\n");
+      fs.appendFileSync('log.txt', "\n----------\n");
       fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
       fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name);
       fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
@@ -121,7 +121,7 @@ function myMovieInfo(movie) {
         console.log("Actors: " + JSON.parse(body).Actors);
         console.log("\n----------\n");
 
-        fs.appendFileSync("\n----------\n");
+        fs.appendFileSync('log.txt', "\n----------\n");
         fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating);

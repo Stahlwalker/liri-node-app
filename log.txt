@@ -504,3 +504,14 @@ Artist: Michael JacksonSong: Beat It - Single VersionPreview URL: https://p.scdn
 node liri.js: movie-this Serenity
 Title: SerenityRelease Year: 30 Sep 2005Rating: 7.9The Rotten Tomato rating is: 83%Country where produced: USALanguage: English, MandarinPlot: The crew of the ship Serenity try to evade an assassin sent to recapture one of their members who is telepathic.Actors: Nathan Fillion, Gina Torres, Alan Tudyk, Morena Baccarin
 ----------
+node liri.js: spotify-this-song Hero
+
+----------
+Artist: Maren MorrisSong: I Could Use a Love SongPreview URL: https://p.scdn.co/mp3-preview/f03fca82860612598d076212ee8d25e5fb4c1629?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: HERO (Deluxe Edition)
+----------
+node liri.js: movie-this Space-Jam
+node liri.js: movie-this The-Rock
+
+----------
+Title: The RockRelease Year: 07 Jun 1996Rating: 7.4The Rotten Tomato rating is: 66%Country where produced: USALanguage: EnglishPlot: A mild-mannered chemist and an ex-con must lead the counterstrike when a rogue group of military men, led by a renegade general, threaten a nerve gas attack from Alcatraz against San Francisco.Actors: Sean Connery, Nicolas Cage, Ed Harris, John Spencer
+----------
