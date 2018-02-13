@@ -5,15 +5,15 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
-var first_argv = process.argv;
-var second_argv = process.argv[2];
-var third_argv = process.argv[2];
+var nodeArgv = process.argv;
+var node2Argv = process.argv[2];
+var node3Argv = process.argv[3];
 
-getInput(second_argv);
+getInput(node2Argv);
 
-function getInput(second_argv, args) {
+function getInput(node2Argv, args) {
   if (logged()) {
-    switch (second_argv) {
+    switch (node2Argv) {
       case 'my-tweets':
         displayTweets();
         break;
@@ -114,7 +114,7 @@ function myMovieInfo(movie) {
         console.log("Title: " + JSON.parse(body).Title);
         console.log("Release Year: " + JSON.parse(body).Released);
         console.log("Rating: " + JSON.parse(body).imdbRating);
-        console.log("The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
+        console.log("Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value);
         console.log("Country where produced: " + JSON.parse(body).Country);
         console.log("Language: " + JSON.parse(body).Language);
         console.log("Plot: " + JSON.parse(body).Plot);
@@ -125,7 +125,7 @@ function myMovieInfo(movie) {
         fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title);
         fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released);
         fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFileSync('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
+        fs.appendFileSync('log.txt', "Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value);
         fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country);
         fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language);
         fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot);
@@ -152,7 +152,8 @@ function logged() {
     if (error) {
       throw error;
     } else {
-      console.log(" updated log file! ");
+      // log that we saved the info successfully
+      console.log(" saved to logtxt file! ");
     }
   });
   return true;

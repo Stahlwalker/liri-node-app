@@ -3,7 +3,7 @@
 ![This is a screen shot of text file results](https://github.com/Stahlwalker/liri-node-app/blob/master/logfile2.png)
 
 ## What the project does?
-    * This project uses npm package managers for Twitter, Spotify and OMDB to pull data upon request.  
+    * This project uses node package managers for Twitter, Spotify and OMDB to pull data upon request.  
     * It also uses the npm request to make http calls.  It supports HTTPS and follows redirects by default.  
 
 ## Why the project is useful?
