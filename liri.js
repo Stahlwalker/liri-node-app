@@ -1,12 +1,13 @@
 require("dotenv").config();
 
-var fs = require("fs");
+const fs = require("fs");
 var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
 var first_argv = process.argv;
 var second_argv = process.argv[2];
+var third_argv = process.argv[2];
 
 getInput(second_argv);
 
@@ -56,13 +57,11 @@ function displayTweets() {
     if (!error) {
       for (var i = 0; i < tweets.length; i++) {
         var date = tweets[i].created_at;
-        console.log("\n----------\n");
         console.log("@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
         console.log("\n----------\n");
 
-        fs.appendFile("\n----------\n");
-        fs.appendFile('log.txt', "@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
-        fs.appendFile('log.txt', "\n----------\n");
+        fs.appendFileSync('log.txt', "@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
+        fs.appendFileSync('log.txt', "\n----------\n");
       }
     } else {
       console.log('Error occured');
@@ -87,12 +86,12 @@ function displaySong(song) {
       console.log('Album: ' + data.tracks.items[0].album.name);
       console.log("\n----------\n");
 
-      fs.appendFile("\n----------\n");
-      fs.appendFile('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
-      fs.appendFile('log.txt', 'Song: ' + data.tracks.items[0].name);
-      fs.appendFile('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
-      fs.appendFile('log.txt', 'Album: ' + data.tracks.items[0].album.name);
-      fs.appendFile("\n----------\n");
+      fs.appendFileSync("\n----------\n");
+      fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
+      fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name);
+      fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
+      fs.appendFileSync('log.txt', 'Album: ' + data.tracks.items[0].album.name);
+      fs.appendFileSync('log.txt', "\n----------\n");
 
     }
 
@@ -109,7 +108,7 @@ function myMovieInfo(movie) {
       if (movieInfo.Response === 'False') {
         myMovieInfo('Mr. Nobody');
         console.log("If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
-        fs.appendFile('log.txt', "If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
+        fs.appendFileSync('log.txt', "If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.");
       } else {
         console.log("\n----------\n");
         console.log("Title: " + JSON.parse(body).Title);
@@ -122,16 +121,16 @@ function myMovieInfo(movie) {
         console.log("Actors: " + JSON.parse(body).Actors);
         console.log("\n----------\n");
 
-        fs.appendFile("\n----------\n");
-        fs.appendFile('log.txt', "Title: " + JSON.parse(body).Title);
-        fs.appendFile('log.txt', "Release Year: " + JSON.parse(body).Released);
-        fs.appendFile('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFile('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
-        fs.appendFile('log.txt', "Country where produced: " + JSON.parse(body).Country);
-        fs.appendFile('log.txt', "Language: " + JSON.parse(body).Language);
-        fs.appendFile('log.txt', "Plot: " + JSON.parse(body).Plot);
-        fs.appendFile('log.txt', "Actors: " + JSON.parse(body).Actors);
-        fs.appendFile("\n----------\n");
+        fs.appendFileSync("\n----------\n");
+        fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title);
+        fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released);
+        fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating);
+        fs.appendFileSync('log.txt', "The Rotten Tomato rating is: " + JSON.parse(body).Ratings[1].Value);
+        fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country);
+        fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language);
+        fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot);
+        fs.appendFileSync('log.txt', "Actors: " + JSON.parse(body).Actors);
+        fs.appendFileSync('log.txt', "\n----------\n");
 
       }
 
@@ -149,7 +148,7 @@ function runCommand() {
 function logged() {
   // captures all command line inputs
   var inputs = process.argv.slice(2).join(" ");
-  fs.appendFile("log.txt", "node liri.js: " + inputs + "\n", function (error) {
+  fs.appendFileSync("log.txt", "node liri.js: " + inputs + "\n", function (error) {
     if (error) {
       throw error;
     } else {
