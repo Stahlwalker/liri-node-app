@@ -49,7 +49,6 @@ function getInput(node2Argv, args) {
 
 function displayTweets() {
   var client = new Twitter(keys.twitter);
-  console.log(client);
   var params = {
     screen_name: 'PackersStahl'
   };
