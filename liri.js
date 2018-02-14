@@ -39,7 +39,7 @@ function getInput(node2Argv, args) {
         }
         break;
       case 'do-what-it-says':
-        runCommand();
+        randomContent();
         break;
     }
   }
@@ -137,10 +137,10 @@ function myMovieInfo(movie) {
   });
 }
 
-function runCommand() {
+function randomContent() {
   fs.readFile('random.txt', 'utf-8', function (error, data) {
-    var fileCommands = data.split(',');
-    getInput(fileCommands[0], fileCommands[1]);
+    var content = data.split(',');
+    getInput(content[0], content[1]);
   });
 }
 
