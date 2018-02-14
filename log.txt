@@ -799,3 +799,15 @@ node liri.js: do-what-it-says
 ----------
 Artist: Backstreet BoysSong: I Want It That WayPreview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Hits--Chapter One
 ----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: SisqoSong: Thong SongPreview URL: nullAlbum: Unleash The Dragon
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
