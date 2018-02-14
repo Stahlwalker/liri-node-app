@@ -147,6 +147,8 @@ function runCommand() {
 
 function logged() {
   // captures all command line inputs
+  // .split("") // convert string to array
+  // .join("")  // finally, convert array back to string
   var inputs = process.argv.slice(2).join(" ");
   fs.appendFileSync("log.txt", "node liri.js: " + inputs + "\n", function (error) {
     if (error) {

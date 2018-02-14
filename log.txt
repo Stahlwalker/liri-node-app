@@ -588,3 +588,105 @@ node liri.js: my-tweets
 ----------
 @PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
 ----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: movie-this inception
+
+----------
+Title: InceptionRelease Year: 16 Jul 2010Rating: 8.8Rotten Tomatos bogus rating: 86%Country where produced: USA, UKLanguage: English, Japanese, FrenchPlot: A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy
+----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: movie-this inception
+
+----------
+Title: InceptionRelease Year: 16 Jul 2010Rating: 8.8Rotten Tomatos bogus rating: 86%Country where produced: USA, UKLanguage: English, Japanese, FrenchPlot: A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy
+----------
+node liri.js: spotify-this-song
+
+----------
+Artist: Ty Dolla $ignSong: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - RemixPreview URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
+----------
+node liri.js: spotify-this-song The-Sign
+
+----------
+Artist: Harry StylesSong: Sign of the TimesPreview URL: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Sign of the Times
+----------
