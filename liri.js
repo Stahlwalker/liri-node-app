@@ -26,7 +26,7 @@ function getInput(node2Argv, args) {
             var song = process.argv.slice(3).join('+');
             displaySong(song);
           } else {
-            displaySong('The Sign');
+            displaySong('The Sign Ace of Base');
           }
         }
         break;

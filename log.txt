@@ -690,3 +690,8 @@ node liri.js: spotify-this-song The-Sign
 ----------
 Artist: Harry StylesSong: Sign of the TimesPreview URL: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Sign of the Times
 ----------
+node liri.js: spotify-this-song
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
