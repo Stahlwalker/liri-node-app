@@ -11,18 +11,18 @@ var node3Argv = process.argv[3];
 
 getInput(node2Argv);
 
-function getInput(node2Argv, args) {
+function getInput(node2Argv, argv) {
   if (logged()) {
     switch (node2Argv) {
       case 'my-tweets':
         displayTweets();
         break;
       case 'spotify-this-song':
-        if (args) {
-          console.log(' Arguement passed: ' + args);
-          displaySong(args);
+        if (argv) {
+          console.log(' Arguement passed: ' + argv);
+          displaySong(argv);
         } else {
-          if (process.argv[3] != null) {
+          if (node3Argv != null) {
             var song = process.argv.slice(3).join('+');
             displaySong(song);
           } else {
@@ -31,8 +31,8 @@ function getInput(node2Argv, args) {
         }
         break;
       case 'movie-this':
-        if (args) {
-          myMovieInfo(args);
+        if (argv) {
+          myMovieInfo(argv);
         } else {
           var movie = process.argv.slice(3).join('+');
           myMovieInfo(movie);
