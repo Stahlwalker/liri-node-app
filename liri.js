@@ -57,10 +57,10 @@ function displayTweets() {
     if (!error) {
       for (var i = 0; i < tweets.length; i++) {
         var date = tweets[i].created_at;
-        console.log("@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
+        console.log("@PackersStahl: " + tweets[i].text + " Created at: " + date.substring(0, 19));
         console.log("\n----------\n");
 
-        fs.appendFileSync('log.txt', "@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
+        fs.appendFileSync('log.txt', "@PackersStahl: " + tweets[i].text + " Created at: " + date.substring(0, 19));
         fs.appendFileSync('log.txt', "\n----------\n");
       }
     } else {
@@ -87,10 +87,10 @@ function displaySong(song) {
       console.log("\n----------\n");
 
       fs.appendFileSync('log.txt', "\n----------\n");
-      fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
-      fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name);
-      fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
-      fs.appendFileSync('log.txt', 'Album: ' + data.tracks.items[0].album.name);
+      fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name + " ");
+      fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name + " ");
+      fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url + " ");
+      fs.appendFileSync('log.txt', 'Album: ' + data.tracks.items[0].album.name + " ");
       fs.appendFileSync('log.txt', "\n----------\n");
 
     }
@@ -122,14 +122,14 @@ function myMovieInfo(movie) {
         console.log("\n----------\n");
 
         fs.appendFileSync('log.txt', "\n----------\n");
-        fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title);
-        fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released);
-        fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFileSync('log.txt', "Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value);
-        fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country);
-        fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language);
-        fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot);
-        fs.appendFileSync('log.txt', "Actors: " + JSON.parse(body).Actors);
+        fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title + " ");
+        fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released + " ");
+        fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating + " ");
+        fs.appendFileSync('log.txt', "Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value + " ");
+        fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country + " ");
+        fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language + " ");
+        fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot + " ");
+        fs.appendFileSync('log.txt', "Actors: " + JSON.parse(body).Actors + " ");
         fs.appendFileSync('log.txt', "\n----------\n");
 
       }

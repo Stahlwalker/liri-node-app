@@ -1288,3 +1288,219 @@ node liri.js: movie-this star-wars
 ----------
 Title: Star Wars: Episode IV - A New HopeRelease Year: 25 May 1977Rating: 8.7Rotten Tomatos bogus rating: 93%Country where produced: USALanguage: EnglishPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
 ----------
+node liri2.js: movie-this batman
+node liri2.js: movie-this batman
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: movie-this batman
+node liri2.js: movie-this batman
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: movie-this batman
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: spotify-this-song thriller
+
+----------
+Artist: Michael JacksonSong: Billie JeanPreview URL: https://p.scdn.co/mp3-preview/4eb779428d40d579f14d12a9daf98fc66c7d0be4?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri2.js: spotify-this-song
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
+node liri2.js: movie-this
+If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.
+----------
+Title: Mr. NobodyRelease Year: 26 Sep 2013Rating: 7.9Rotten Tomatos bogus rating: 66%Country where produced: Belgium, Germany, Canada, France, USA, UKLanguage: English, MohawkPlot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+----------
+node liri2.js: movie-this
+node liri2.js: spotify-this-song crossroads
+node liri2.js: spotify-this-song beat-it
+node liri2.js: spotify-this-song thriller
+node liri2.js: spotify-this-song thriller
+
+----------
+Artist: Michael JacksonSong: Billie JeanPreview URL: https://p.scdn.co/mp3-preview/4eb779428d40d579f14d12a9daf98fc66c7d0be4?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri2.js: spotify-this-song beat-it
+
+----------
+Artist: Michael JacksonSong: Beat It - Single VersionPreview URL: https://p.scdn.co/mp3-preview/4901df6e0f8bf6ce93e08df7d98a50e220c45799?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri2.js: spotify-this-song crossroads
+
+----------
+Artist: Bone Thugs-N-HarmonySong: Tha CrossroadsPreview URL: https://p.scdn.co/mp3-preview/c034ff7ebb5dda79454f8fbe5816faef5cfc876b?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: E. 1999 Eternal
+----------
+node liri2.js: spotify-this-song
+node liri2.js: spotify-this-song
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
+node liri2.js: movie-this Batman
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: movie-this Batman
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: movie-this
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri2.js: movie-this Superman
+
+----------
+Title: SupermanRelease Year: 15 Dec 1978Rating: 7.3Rotten Tomatos bogus rating: 93%Country where produced: USA, UK, Panama, Switzerland, CanadaLanguage: EnglishPlot: An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.Actors: Marlon Brando, Gene Hackman, Christopher Reeve, Ned Beatty
+----------
+node liri2.js: movie-this Superman
+
+----------
+Title: Superman Release Year: 15 Dec 1978Rating: 7.3Rotten Tomatos bogus rating: 93%Country where produced: USA, UK, Panama, Switzerland, CanadaLanguage: EnglishPlot: An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.Actors: Marlon Brando, Gene Hackman, Christopher Reeve, Ned Beatty
+----------
+node liri2.js: movie-this Superman
+
+----------
+Title: Superman Release Year: 15 Dec 1978 Rating: 7.3 Rotten Tomatos bogus rating: 93% Country where produced: USA, UK, Panama, Switzerland, Canada Language: English Plot: An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero. Actors: Marlon Brando, Gene Hackman, Christopher Reeve, Ned Beatty 
+----------
+node liri2.js: movie-this
+
+----------
+Title: Superman Release Year: 15 Dec 1978 Rating: 7.3 Rotten Tomatos bogus rating: 93% Country where produced: USA, UK, Panama, Switzerland, Canada Language: English Plot: An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero. Actors: Marlon Brando, Gene Hackman, Christopher Reeve, Ned Beatty 
+----------
+node liri2.js: movie-this
+
+----------
+Title: Superman Returns Release Year: 28 Jun 2006 Rating: 6.1 Rotten Tomatos bogus rating: 75% Country where produced: USA Language: English, German, French Plot: Superman reappears after a long absence, but is challenged by an old foe who uses Kryptonian technology for world domination. Actors: Brandon Routh, Kate Bosworth, Kevin Spacey, James Marsden 
+----------
+node liri2.js: movie-this Superman-returns
+
+----------
+Title: Superman Returns Release Year: 28 Jun 2006 Rating: 6.1 Rotten Tomatos bogus rating: 75% Country where produced: USA Language: English, German, French Plot: Superman reappears after a long absence, but is challenged by an old foe who uses Kryptonian technology for world domination. Actors: Brandon Routh, Kate Bosworth, Kevin Spacey, James Marsden 
+----------
+node liri2.js: movie-this,Superman-returns
+
+----------
+Title: Superman Returns Release Year: 28 Jun 2006 Rating: 6.1 Rotten Tomatos bogus rating: 75% Country where produced: USA Language: English, German, French Plot: Superman reappears after a long absence, but is challenged by an old foe who uses Kryptonian technology for world domination. Actors: Brandon Routh, Kate Bosworth, Kevin Spacey, James Marsden 
+----------
+node liri2.js: /usr/local/Cellar/node/8.4.0/bin/node /Users/lstahl/Bootcamp/liri-node-app/liri2.js movie-this Superman-returns
+
+----------
+Title: Superman Returns Release Year: 28 Jun 2006 Rating: 6.1 Rotten Tomatos bogus rating: 75% Country where produced: USA Language: English, German, French Plot: Superman reappears after a long absence, but is challenged by an old foe who uses Kryptonian technology for world domination. Actors: Brandon Routh, Kate Bosworth, Kevin Spacey, James Marsden 
+----------
+node liri2.js: movie-this Superman-returns
+
+----------
+Title: Superman Returns Release Year: 28 Jun 2006 Rating: 6.1 Rotten Tomatos bogus rating: 75% Country where produced: USA Language: English, German, French Plot: Superman reappears after a long absence, but is challenged by an old foe who uses Kryptonian technology for world domination. Actors: Brandon Routh, Kate Bosworth, Kevin Spacey, James Marsden 
+----------
+node liri2.js: spotify-this-song beat-it
+
+----------
+Artist: Michael JacksonSong: Beat It - Single VersionPreview URL: https://p.scdn.co/mp3-preview/4901df6e0f8bf6ce93e08df7d98a50e220c45799?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri2.js: spotify-this-song beat-it
+
+----------
+Artist: Michael Jackson Song: Beat It - Single Version Preview URL: https://p.scdn.co/mp3-preview/4901df6e0f8bf6ce93e08df7d98a50e220c45799?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: Thriller 25 Super Deluxe Edition 
+----------
+node liri2.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri2.js: my-tweets
+@PackersStahl: lucky number 21 tweet Created at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhh Created at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce Wayne Created at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fan Created at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin life Created at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the North Created at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; Bears Created at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; Lions Created at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guru Created at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLife Created at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than Windows Created at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunch Created at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football Champion Created at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs name Created at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday Funday Created at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show! Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; Vikings Created at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and Lost Created at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than Batman Created at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than Batman Created at: Sun Feb 11 18:42:27
+----------
+node liri2.js: spotify-this-song
+node liri2.js: spotify-this-song
+node liri2.js: spotify-this-song
+
+----------
+Artist: Ace of Base Song: The Sign Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: The Sign (US Album) [Remastered] 
+----------

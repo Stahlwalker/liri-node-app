@@ -5,10 +5,12 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
-var nodeArgv = process.argv;
+// var nodeArgv = process.argv;
 var node2Argv = process.argv[2];
 var node3Argv = process.argv[3];
 var argv = "";
+
+
 
 getInput(node2Argv);
 
@@ -61,10 +63,10 @@ function displayTweets() {
     if (!error) {
       for (var i = 0; i < tweets.length; i++) {
         var date = tweets[i].created_at;
-        console.log("@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
+        console.log("@PackersStahl: " + tweets[i].text + " Created at: " + date.substring(0, 19));
         console.log("\n----------\n");
 
-        fs.appendFileSync('log.txt', "@PackersStahl: " + tweets[i].text + "Created at: " + date.substring(0, 19));
+        fs.appendFileSync('log.txt', "@PackersStahl: " + tweets[i].text + " Created at: " + date.substring(0, 19));
         fs.appendFileSync('log.txt', "\n----------\n");
       }
     } else {
@@ -91,10 +93,10 @@ function displaySong(song) {
       console.log("\n----------\n");
 
       fs.appendFileSync('log.txt', "\n----------\n");
-      fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name);
-      fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name);
-      fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url);
-      fs.appendFileSync('log.txt', 'Album: ' + data.tracks.items[0].album.name);
+      fs.appendFileSync('log.txt', 'Artist: ' + data.tracks.items[0].album.artists[0].name + " ");
+      fs.appendFileSync('log.txt', 'Song: ' + data.tracks.items[0].name + " ");
+      fs.appendFileSync('log.txt', 'Preview URL: ' + data.tracks.items[0].preview_url + " ");
+      fs.appendFileSync('log.txt', 'Album: ' + data.tracks.items[0].album.name + " ");
       fs.appendFileSync('log.txt', "\n----------\n");
 
     }
@@ -126,14 +128,14 @@ function myMovieInfo(movie) {
         console.log("\n----------\n");
 
         fs.appendFileSync('log.txt', "\n----------\n");
-        fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title);
-        fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released);
-        fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating);
-        fs.appendFileSync('log.txt', "Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value);
-        fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country);
-        fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language);
-        fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot);
-        fs.appendFileSync('log.txt', "Actors: " + JSON.parse(body).Actors);
+        fs.appendFileSync('log.txt', "Title: " + JSON.parse(body).Title + " ");
+        fs.appendFileSync('log.txt', "Release Year: " + JSON.parse(body).Released + " ");
+        fs.appendFileSync('log.txt', "Rating: " + JSON.parse(body).imdbRating + " ");
+        fs.appendFileSync('log.txt', "Rotten Tomatos bogus rating: " + JSON.parse(body).Ratings[1].Value + " ");
+        fs.appendFileSync('log.txt', "Country where produced: " + JSON.parse(body).Country + " ");
+        fs.appendFileSync('log.txt', "Language: " + JSON.parse(body).Language + " ");
+        fs.appendFileSync('log.txt', "Plot: " + JSON.parse(body).Plot + " ");
+        fs.appendFileSync('log.txt', "Actors: " + JSON.parse(body).Actors + " ");
         fs.appendFileSync('log.txt', "\n----------\n");
 
       }
@@ -144,6 +146,7 @@ function myMovieInfo(movie) {
 
 function randomContent() {
   fs.readFile('random.txt', 'utf-8', function (error, data) {
+    // .split will remove commas
     var content = data.split(',');
     getInput(content[0], content[1]);
   });
@@ -151,15 +154,15 @@ function randomContent() {
 
 function logged() {
   // captures all command line inputs
-  // .split("") // convert string to array
-  // .join("")  // finally, convert array back to string
+  // .slice(2) will only take the 3rd argument
+  // .join(" ")  // will make it a string
   var inputs = process.argv.slice(2).join(" ");
-  fs.appendFileSync("log.txt", "node liri.js: " + inputs + "\n", function (error) {
+  fs.appendFileSync("log.txt", "node liri2.js: " + inputs + "\n", function (error) {
     if (error) {
-      throw error;
-    } else {
-      // log that we saved the info successfully
-      console.log(" saved to logtxt file! ");
+    //   throw error;
+    // } else {
+    //   // log that we saved the info successfully
+    //   console.log(" saved to logtxt file! ");
     }
   });
   return true;
