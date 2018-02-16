@@ -953,3 +953,338 @@ node liri.js: spotify-this-song
 ----------
 Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
 ----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+
+----------
+Artist: Kid CudiSong: Day 'N' Nite (nightmare)Preview URL: nullAlbum: Man On The Moon: The End Of Day
+----------
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
+If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.
+----------
+Title: Mr. NobodyRelease Year: 26 Sep 2013Rating: 7.9Rotten Tomatos bogus rating: 66%Country where produced: Belgium, Germany, Canada, France, USA, UKLanguage: English, MohawkPlot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+----------
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+
+----------
+Title: BatmanRelease Year: 23 Jun 1989Rating: 7.6Rotten Tomatos bogus rating: 72%Country where produced: USA, UKLanguage: English, French, SpanishPlot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: movie-this spaceballs
+
+----------
+Title: SpaceballsRelease Year: 24 Jun 1987Rating: 7.1Rotten Tomatos bogus rating: 57%Country where produced: USALanguage: EnglishPlot: Planet Spaceballs' President Skroob sends Lord Dark Helmet to steal planet Druidia's abundant supply of air to replenish their own, and only Lone Starr can stop them.Actors: Mel Brooks, John Candy, Rick Moranis, Bill Pullman
+----------
+node liri.js: movie-this star-wars
+
+----------
+Title: Star Wars: Episode IV - A New HopeRelease Year: 25 May 1977Rating: 8.7Rotten Tomatos bogus rating: 93%Country where produced: USALanguage: EnglishPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+----------
+node liri.js: movie-this spaceballs
+
+----------
+Title: SpaceballsRelease Year: 24 Jun 1987Rating: 7.1Rotten Tomatos bogus rating: 57%Country where produced: USALanguage: EnglishPlot: Planet Spaceballs' President Skroob sends Lord Dark Helmet to steal planet Druidia's abundant supply of air to replenish their own, and only Lone Starr can stop them.Actors: Mel Brooks, John Candy, Rick Moranis, Bill Pullman
+----------
+node liri.js: movie-this star-wars
+
+----------
+Title: Star Wars: Episode IV - A New HopeRelease Year: 25 May 1977Rating: 8.7Rotten Tomatos bogus rating: 93%Country where produced: USALanguage: EnglishPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+----------
+node liri.js: movie-this star-wars
+
+----------
+Title: Star Wars: Episode IV - A New HopeRelease Year: 25 May 1977Rating: 8.7Rotten Tomatos bogus rating: 93%Country where produced: USALanguage: EnglishPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: spotify-this-song thriller
+
+----------
+Artist: Michael JacksonSong: Billie JeanPreview URL: https://p.scdn.co/mp3-preview/4eb779428d40d579f14d12a9daf98fc66c7d0be4?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri.js: spotify-this-song
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: my-tweets
+@PackersStahl: lucky number 21 tweetCreated at: Sun Feb 11 18:55:22
+----------
+@PackersStahl: Barry Allen is the Flash shhhhhhhhCreated at: Sun Feb 11 18:55:06
+----------
+@PackersStahl: Clark Kent is cooler than Bruce WayneCreated at: Sun Feb 11 18:54:52
+----------
+@PackersStahl: Toyota 4Runner fanCreated at: Sun Feb 11 18:54:41
+----------
+@PackersStahl: Wisconsin lifeCreated at: Sun Feb 11 18:54:28
+----------
+@PackersStahl: King of the NorthCreated at: Sun Feb 11 18:53:50
+----------
+@PackersStahl: Packers &gt; BearsCreated at: Sun Feb 11 18:53:44
+----------
+@PackersStahl: Packers &gt; LionsCreated at: Sun Feb 11 18:53:36
+----------
+@PackersStahl: Marketing guruCreated at: Sun Feb 11 18:53:19
+----------
+@PackersStahl: MacLifeCreated at: Sun Feb 11 18:53:05
+----------
+@PackersStahl: Apple is better than WindowsCreated at: Sun Feb 11 18:52:59
+----------
+@PackersStahl: Pizza pepperoni for lunchCreated at: Sun Feb 11 18:52:23
+----------
+@PackersStahl: Fantasy Football ChampionCreated at: Sun Feb 11 18:52:07
+----------
+@PackersStahl: Lambeau is my dogs nameCreated at: Sun Feb 11 18:51:43
+----------
+@PackersStahl: Sunday FundayCreated at: Sun Feb 11 18:51:26
+----------
+@PackersStahl: Watching Lucifer good show!Created at: Sun Feb 11 18:51:20
+----------
+@PackersStahl: Packers &gt; VikingsCreated at: Sun Feb 11 18:50:59
+----------
+@PackersStahl: Fav shows, Justified, Smallville and LostCreated at: Sun Feb 11 18:43:05
+----------
+@PackersStahl: Flash is better than BatmanCreated at: Sun Feb 11 18:42:38
+----------
+@PackersStahl: Superman is better than BatmanCreated at: Sun Feb 11 18:42:27
+----------
+node liri.js: spotify-this-song
+node liri.js: spotify-this-song
+
+----------
+Artist: Ace of BaseSong: The SignPreview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: The Sign (US Album) [Remastered]
+----------
+node liri.js: spotify-this-song thriller
+
+----------
+Artist: Michael JacksonSong: Billie JeanPreview URL: https://p.scdn.co/mp3-preview/4eb779428d40d579f14d12a9daf98fc66c7d0be4?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Thriller 25 Super Deluxe Edition
+----------
+node liri.js: do-what-it-says
+node liri.js: do-what-it-says
+
+----------
+Artist: Michael JacksonSong: Man in the Mirror - 2012 RemasterPreview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2Album: Bad 25th Anniversary
+----------
+node liri.js: movie-this star-wars
+
+----------
+Title: Star Wars: Episode IV - A New HopeRelease Year: 25 May 1977Rating: 8.7Rotten Tomatos bogus rating: 93%Country where produced: USALanguage: EnglishPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+----------

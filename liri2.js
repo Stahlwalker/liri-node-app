@@ -14,10 +14,12 @@ getInput(node2Argv);
 
 function getInput(node2Argv, argv) {
   if (logged()) {
+
     switch (node2Argv) {
       case 'my-tweets':
         displayTweets();
         break;
+
       case 'spotify-this-song':
         if (argv) {
           console.log(' Arguement passed: ' + argv);
@@ -31,6 +33,7 @@ function getInput(node2Argv, argv) {
           }
         }
         break;
+
       case 'movie-this':
         if (argv) {
           myMovieInfo(argv);
@@ -39,6 +42,7 @@ function getInput(node2Argv, argv) {
           myMovieInfo(movie);
         }
         break;
+
       case 'do-what-it-says':
         randomContent();
         break;
