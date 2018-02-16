@@ -5,29 +5,25 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
-// var nodeArgv = process.argv;
-var node2Argv = process.argv[2];
-var node3Argv = process.argv[3];
+var userCommand = process.argv[2];
+var secondCommand = process.argv[3];
 var argv = "";
 
+getInput(userCommand);
 
-
-getInput(node2Argv);
-
-function getInput(node2Argv, argv) {
+function getInput(userCommand, argv) {
   if (logged()) {
 
-    switch (node2Argv) {
+    switch (userCommand) {
       case 'my-tweets':
         displayTweets();
         break;
 
       case 'spotify-this-song':
         if (argv) {
-          console.log(' Arguement passed: ' + argv);
           displaySong(argv);
         } else {
-          if (node3Argv != null) {
+          if (secondCommand != null) {
             var song = process.argv.slice(3).join('+');
             displaySong(song);
           } else {
@@ -157,13 +153,8 @@ function logged() {
   // .slice(2) will only take the 3rd argument
   // .join(" ")  // will make it a string
   var inputs = process.argv.slice(2).join(" ");
-  fs.appendFileSync("log.txt", "node liri2.js: " + inputs + "\n", function (error) {
-    if (error) {
-    //   throw error;
-    // } else {
-    //   // log that we saved the info successfully
-    //   console.log(" saved to logtxt file! ");
-    }
+  fs.appendFileSync("log.txt", "node liri.js: " + inputs + "\n", function (error) {
+    if (error) {}
   });
   return true;
 }

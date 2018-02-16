@@ -1504,3 +1504,49 @@ node liri2.js: spotify-this-song
 ----------
 Artist: Ace of Base Song: The Sign Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: The Sign (US Album) [Remastered] 
 ----------
+node liri2.js: spotify-this-song my-way
+
+----------
+Artist: Calvin Harris Song: My Way Preview URL: https://p.scdn.co/mp3-preview/33060c2bf30b7b5f6db0d539cdac800e93b0c49d?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: My Way 
+----------
+node liri2.js: spotify-this-song my-way
+
+----------
+Artist: Calvin Harris Song: My Way Preview URL: https://p.scdn.co/mp3-preview/33060c2bf30b7b5f6db0d539cdac800e93b0c49d?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: My Way 
+----------
+node liri2.js: spotify-this-song crossroads
+
+----------
+Artist: Bone Thugs-N-Harmony Song: Tha Crossroads Preview URL: https://p.scdn.co/mp3-preview/c034ff7ebb5dda79454f8fbe5816faef5cfc876b?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: E. 1999 Eternal 
+----------
+node liri2.js: spotify-this-song
+
+----------
+Artist: Ace of Base Song: The Sign Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: The Sign (US Album) [Remastered] 
+----------
+node liri2.js: spotify-this-song
+
+----------
+Artist: Ace of Base Song: The Sign Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: The Sign (US Album) [Remastered] 
+----------
+node liri2.js: spotify-this-song purple-rain
+
+----------
+Artist: Prince Song: Purple Rain Preview URL: https://p.scdn.co/mp3-preview/2fe008411edea4f21355301daa8993663eaf46f8?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: Purple Rain 
+----------
+node liri2.js: movie-this ghostbusters
+
+----------
+Title: Ghostbusters Release Year: 08 Jun 1984 Rating: 7.8 Rotten Tomatos bogus rating: 97% Country where produced: USA Language: English Plot: Three former parapsychology professors set up shop as a unique ghost removal service. Actors: Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis 
+----------
+node liri2.js: movie-this
+If you haven't watched Mr. Nobody, then you should http://www.imdb.com/title/tt0485947/, it's also on Netflix.
+----------
+Title: Mr. Nobody Release Year: 26 Sep 2013 Rating: 7.9 Rotten Tomatos bogus rating: 66% Country where produced: Belgium, Germany, Canada, France, USA, UK Language: English, Mohawk Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+----------
+node liri2.js: do-what-it-says
+node liri2.js: do-what-it-says
+
+----------
+Artist: Michael Jackson Song: Man in the Mirror - 2012 Remaster Preview URL: https://p.scdn.co/mp3-preview/9b6d9730b531defe7f54062497657293e67690fe?cid=8bfe9fd6d9ae46ce957e6be8c764c4a2 Album: Bad 25th Anniversary 
+----------
