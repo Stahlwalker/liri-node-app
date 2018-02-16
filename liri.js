@@ -5,25 +5,25 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 
-var nodeArgv = process.argv;
-var node2Argv = process.argv[2];
-var node3Argv = process.argv[3];
+var userCommand = process.argv[2];
+var secondCommand = process.argv[3];
 var argv = "";
 
-getInput(node2Argv);
+getInput(userCommand);
 
-function getInput(node2Argv, argv) {
+function getInput(userCommand, argv) {
   if (logged()) {
-    switch (node2Argv) {
+
+    switch (userCommand) {
       case 'my-tweets':
         displayTweets();
         break;
+
       case 'spotify-this-song':
         if (argv) {
-          console.log(' Arguement passed: ' + argv);
           displaySong(argv);
         } else {
-          if (node3Argv != null) {
+          if (secondCommand != null) {
             var song = process.argv.slice(3).join('+');
             displaySong(song);
           } else {
@@ -31,6 +31,7 @@ function getInput(node2Argv, argv) {
           }
         }
         break;
+
       case 'movie-this':
         if (argv) {
           myMovieInfo(argv);
@@ -39,6 +40,7 @@ function getInput(node2Argv, argv) {
           myMovieInfo(movie);
         }
         break;
+
       case 'do-what-it-says':
         randomContent();
         break;
@@ -140,6 +142,7 @@ function myMovieInfo(movie) {
 
 function randomContent() {
   fs.readFile('random.txt', 'utf-8', function (error, data) {
+    // .split will remove commas
     var content = data.split(',');
     getInput(content[0], content[1]);
   });
@@ -147,16 +150,11 @@ function randomContent() {
 
 function logged() {
   // captures all command line inputs
-  // .split("") // convert string to array
-  // .join("")  // finally, convert array back to string
+  // .slice(2) will only take the 3rd argument
+  // .join(" ")  // will make it a string
   var inputs = process.argv.slice(2).join(" ");
   fs.appendFileSync("log.txt", "node liri.js: " + inputs + "\n", function (error) {
-    if (error) {
-      throw error;
-    } else {
-      // log that we saved the info successfully
-      console.log(" saved to logtxt file! ");
-    }
+    if (error) {}
   });
   return true;
 }
